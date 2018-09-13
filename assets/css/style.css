@@ -220,6 +220,58 @@ input[type=submit] {
 @media screen and (max-width: 640px) {
   #masthead {
     position: static;
-   
+     }
+  
+  #logo {
+    width: 100%;
   }
+
+  nav {
+    float: right;
+    margin: 10px auto;
+    width: 100%;
+    text-align: center
+  }
+
+  nav a {
+    margin: 0 auto;
+    padding: 0 15px;
+   }
+
+  #main-container {
+    padding-top: 0;
+  }
+
+  .auth-image {
+    float: none;
+    width: 100%;
+  }
+
+  .work {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 641px) and (max-width: 768px) {
+  .contact-link {
+    margin-right: 15px;
+    padding-right: 15px;
+  }
+  .auth-image {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 980px) {
+  .contact-link {
+    margin-right: 15px;
+    padding-right: 15px;
+  }
+  .auth-image {
+    width: 50%;
+  }
+  #main-container {
+    width: 745px;
+  }
+
 }
